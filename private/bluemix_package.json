@@ -1,0 +1,14 @@
+{
+  "name": "meteoremote",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines" : {
+    "node" : "4.5"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "qrcode-npm": "0.0.3"
+  }
+}

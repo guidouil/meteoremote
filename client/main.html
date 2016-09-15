@@ -1,0 +1,19 @@
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="A giroscopic remote made with Meteor"/>
+  <meta name="author" content="@guidouil"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link rel="icon" href="/meteor-icon.png"/>
+  <title>MeteoRemote</title>
+  <meta name="theme-color" content="#000000"/>
+</head>
+
+<template name="main">
+  {{> header}}
+  <div class="pusher">
+    <div class="ui container fluid main-container">
+      {{> yield}}
+    </div>
+  </div>
+</template>

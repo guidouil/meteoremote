@@ -1,0 +1,13 @@
+html.ios, html.ios body {
+  height: 100%!important;
+}
+.pusher {
+  min-height: 100% !important;
+}
+.main-container {
+  height: 100% !important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow-y: auto !important;
+  position: relative;
+}
