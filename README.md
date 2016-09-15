@@ -1,5 +1,5 @@
 # MeteoRemote
-A gyroscopic remote made with [Meteor](https://www.meteor.com/) 1.4.1
+A gyroscopic remote control between your PC and your Smartphone made with [Meteor](https://www.meteor.com/) 1.4.1.1
 
 ### See the demo [meteoremote.mybluemix.net](http://meteoremote.mybluemix.net/)
 
@@ -17,7 +17,7 @@ A gyroscopic remote made with [Meteor](https://www.meteor.com/) 1.4.1
 First build the meteor server with the right architecture
 
 	meteor build ../builds/. --server-only --architecture os.linux.x86_64
-	
+
 Then prepare the app bundle dependencies
 
 	cd ../builds
