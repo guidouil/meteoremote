@@ -13,12 +13,12 @@ Template.home.onRendered(function () {
   this.qrImg.set(qr.createImgTag(9));
 
   let newImgSrc = false;
-  Tracker.autorun(function () {
+  this.autorun(function () {
     let remote = Remotes.findOne({_id: remoteId});
     if (remote && remote.tiltLR && remote.tiltFB && remote.dir) {
       let qrImg = document.getElementById('qrImg');
       if (! newImgSrc) {
-        qrImg.src = '/meteor-logo.png';
+        qrImg.src = '/B&D.jpg';
         newImgSrc = true;
       }
       qrImg.style.webkitTransform = 'rotate(' + remote.tiltLR + 'deg) rotate3d(1,0,0, ' + (remote.tiltFB * -1) + 'deg)';
