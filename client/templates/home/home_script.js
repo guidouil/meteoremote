@@ -41,7 +41,7 @@ Template.home.helpers({
   },
   addImgAttr (imgTag) {
     if (imgTag) {
-      return imgTag.slice(0, -2) + ' class="ui big centered image" id="qrImg" />';
+      return imgTag.slice(0, -2) + ' class="ui huge centered image" id="qrImg" />';
     }
   },
 });
