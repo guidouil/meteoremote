@@ -18,7 +18,7 @@ Template.home.onRendered(function () {
     if (remote && remote.tiltLR && remote.tiltFB && remote.dir) {
       let qrImg = document.getElementById('qrImg');
       if (! newImgSrc) {
-        qrImg.src = '/B&D.jpg';
+        qrImg.src = '/Roti.png';
         newImgSrc = true;
       }
       qrImg.style.webkitTransform = 'rotate(' + remote.tiltLR + 'deg) rotate3d(1,0,0, ' + (remote.tiltFB * -1) + 'deg)';
